@@ -18,6 +18,7 @@
     <!-- Nav Component -->
     <nav>
       <ul class="flex">
+        <!-- TODO: Refactor these nav menu item styles -->
         <li class="bg-light-lime mt-1 py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-pen-nib fa-lg"></i>
         </li>
@@ -38,8 +39,21 @@
     </nav>
 
     <!-- Content Component -->
-    <main class="p-2 pt-0">
-      <p>...</p>
+    <main class="px-1">
+      <h2 class="text-dark-gray uppercase text-2xl font-header mb-2">Portfolio</h2>
+      <article class="flex">
+        <img class="w-20 h-20" src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
+        <div class="flex-auto ml-1">
+          <div class="uppercase text-white bg-dark-gray px-1 flex justify-between">
+            <span>30 Bowl</span>
+            <i class="fab fa-drupal self-center"></i>
+          </div>
+          <div class="flex">
+            <div class="text-sm leading-tight">Drupal-based website with custom theme, for small-town bowling alley.</div>
+            <i class="fas fa-angle-right my-auto cursor-pointer text-light-lime"></i>
+          </div>
+        </div>
+      </article>
     </main>
   </body>
 </html>
