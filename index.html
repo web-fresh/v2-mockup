@@ -10,31 +10,34 @@
   </head>
   <body class="m-0 bg-green-100 text-gray-800">
     <!-- Header Component -->
-    <header class="p-3 py-1 bg-dark-lime text-center">
-      <h1 class="text-5xl font-bold uppercase text-white leading-none font-header">Webfresh</h1>
-      <p class="uppercase text-white text-lg pt-0">Web Development</p>
+    <header class="flex">
+      <div class="p-3 py-1 bg-dark-lime text-center w-full xs:max-w-xs">
+        <h1 class="text-5xl font-bold uppercase text-white leading-none font-header">Webfresh</h1>
+        <p class="uppercase text-white text-lg pt-0">Web Development</p>
+      </div>
+      <span class="hidden xs:block ml-1 flex-grow bg-light-lime"></span>
     </header>
     
     <!-- Nav Component -->
     <nav>
-      <ul class="flex">
+      <ul class="flex mt-1">
         <!-- TODO: Refactor these nav menu item styles -->
-        <li class="bg-light-lime mt-1 py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-pen-nib fa-lg"></i>
         </li>
-        <li class="bg-dark-lime mt-1 py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="bg-dark-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-folder fa-lg"></i>
         </li>
-        <li class="bg-light-lime mt-1 py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-award fa-lg"></i>
         </li>
-        <li class="bg-light-lime mt-1 py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-envelope fa-lg"></i>
         </li>
-        <li class="bg-light-lime mt-1 py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fab fa-github fa-lg"></i>
         </li>
-        <li class="bg-light-lime mt-1 py-1 p-3 text-white font-bold flex-grow"></li>
+        <span class="bg-light-lime py-1 p-3 flex-grow"></span>
       </ul>
     </nav>
 
