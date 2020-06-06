@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   </head>
-  <body class="m-0 bg-green-100 text-gray-800">
+  <body class="m-0 bg-green-100 text-gray-800 px-1">
     <!-- Header Component -->
     <header class="flex">
       <div class="p-3 py-1 bg-dark-lime text-center w-full xs:max-w-xs">
@@ -21,28 +21,32 @@
     <!-- Nav Component -->
     <nav>
       <ul class="flex mt-1">
-        <!-- TODO: Refactor these nav menu item styles -->
-        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-pen-nib fa-lg"></i>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Blog</span>
         </li>
-        <li class="bg-dark-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap bg-dark-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-folder fa-lg"></i>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Portfolio</span>
         </li>
-        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-award fa-lg"></i>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Resume</span>
         </li>
-        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-envelope fa-lg"></i>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Contact</span>
         </li>
-        <li class="bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fab fa-github fa-lg"></i>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Github</span>
         </li>
         <span class="bg-light-lime py-1 p-3 flex-grow"></span>
       </ul>
     </nav>
 
     <!-- Content Component -->
-    <main class="px-1">
+    <main>
       <h2 class="text-dark-gray uppercase text-2xl font-header mb-1">Portfolio</h2>
       <!--  Portfolio Item -->
       <article class="flex">
