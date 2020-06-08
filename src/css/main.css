@@ -7,3 +7,12 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 900;
 }
+
+.--collapse {
+  transition: all 500ms;
+}
+
+.content {
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}

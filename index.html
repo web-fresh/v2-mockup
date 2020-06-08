@@ -47,9 +47,9 @@
 
     <!-- Content Component -->
     <main>
-      <h2 class="text-dark-gray uppercase text-2xl font-header mb-1">Portfolio</h2>
+      <h2 class="sm:hidden text-dark-gray uppercase text-2xl font-header">Portfolio</h2>
       <!--  Portfolio Item -->
-      <article class="flex">
+      <article class="flex mt-1">
         <a href="#" class="flex-shrink-0">
           <img src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
         </a>
@@ -61,13 +61,21 @@
               <i class="fab fa-wordpress self-center"></i>
             </span>
           </div>
-          <div class="flex justify-between">
-            <div class="text-sm leading-tight">
+          <div class="flex justify-between flex-col">
+            <div class="leading-tight">
               Website redesign, using Wordpress, modern CSS/JS, and Twig.
             </div>
-            <a class="my-auto cursor-pointer px-1" href="#">
-              <i class="fas fa-angle-down text-light-lime"></i>
-            </a>
+            <div>
+              <div class="sm:hidden">
+                <i class="fas fa-angle-down text-light-lime --collapse"></i>
+              </div>
+              <div class="content sm:max-h-full overflow-hidden">
+                <h3 class="hidden sm:block  font-bold py-2 uppercase">
+                  Details
+                </h3>
+                <p class="leading-tight">--- Expanded Description ---</p>
+              </div>
+            </div>
           </div>
         </div>
       </article>
@@ -83,13 +91,21 @@
               <i class="fab fa-drupal self-center"></i>
             </span>
           </div>
-          <div class="flex justify-between">
-            <div class="text-sm leading-tight">
+          <div class="flex justify-between flex-col">
+            <div class="leading-tight">
               A new portfolio website. Reimagined and built on Drupal 8 CMS.
             </div>
-            <a class="my-auto cursor-pointer px-1" href="#">
-              <i class="fas fa-angle-down text-light-lime"></i>
-            </a>
+            <div>
+              <div class="sm:hidden">
+                <i class="fas fa-angle-down text-light-lime --collapse"></i>
+              </div>
+              <div class="content sm:max-h-full overflow-hidden">
+                <h3 class="hidden sm:block  font-bold py-2 uppercase">
+                  Details
+                </h3>
+                <p class="leading-tight">--- Expanded Description ---</p>
+              </div>
+            </div>
           </div>
         </div>
       </article>
@@ -105,13 +121,21 @@
               <i class="fab fa-drupal self-center"></i>
             </span>
           </div>
-          <div class="flex justify-between">
-            <div class="text-sm leading-tight">
+          <div class="flex justify-between flex-col">
+            <div class="leading-tight">
               Drupal-based website with custom theme, for small-town bowling alley.
             </div>
-            <a class="my-auto cursor-pointer px-1" href="#">
-              <i class="fas fa-angle-down text-light-lime"></i>
-            </a>
+            <div>
+              <div class="sm:hidden">
+                <i class="fas fa-angle-down text-light-lime --collapse"></i>
+              </div>
+              <div class="content sm:max-h-full overflow-hidden">
+                <h3 class="hidden sm:block  font-bold py-2 uppercase">
+                  Details
+                </h3>
+                <p class="leading-tight">--- Expanded Description ---</p>
+              </div>
+            </div>
           </div>
         </div>
       </article>
@@ -127,13 +151,21 @@
               <i class="fab fa-react self-center"></i>
             </span>
           </div>
-          <div class="flex justify-between">
-            <div class="text-sm leading-tight">
+          <div class="flex justify-between flex-col">
+            <div class="leading-tight">
               A simple photo hosting app, built with React and Firebase.
             </div>
-            <a class="my-auto cursor-pointer px-1" href="#">
-              <i class="fas fa-angle-down text-light-lime"></i>
-            </a>
+            <div>
+              <div class="sm:hidden">
+                <i class="fas fa-angle-down text-light-lime --collapse"></i>
+              </div>
+              <div class="content sm:max-h-full overflow-hidden">
+                <h3 class="hidden sm:block  font-bold py-2 uppercase">
+                  Details
+                </h3>
+                <p class="leading-tight">--- Expanded Description ---</p>
+              </div>
+            </div>
           </div>
         </div>
       </article>
@@ -150,16 +182,27 @@
               <i class="fab fa-html5 self-center"></i>
             </span>
           </div>
-          <div class="flex justify-between">
-            <div class="text-sm leading-tight">
+          <div class="flex justify-between flex-col">
+            <div class="leading-tight">
               Simple, minimal, Github Pages website. Written in raw HTML+JS, with AJAX for dynamic content.
             </div>
-            <a class="my-auto cursor-pointer px-1" href="#">
-              <i class="fas fa-angle-down text-light-lime"></i>
-            </a>
+            <div>
+              <div class="sm:hidden">
+                <i class="fas fa-angle-down text-light-lime --collapse"></i>
+              </div>
+              <div class="content sm:max-h-full overflow-hidden">
+                <h3 class="hidden sm:block  font-bold py-2 uppercase">
+                  Details
+                </h3>
+                <p class="leading-tight">--- Expanded Description ---</p>
+              </div>
+            </div>
           </div>
         </div>
       </article>
     </main>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
   </body>
 </html>
