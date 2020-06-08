@@ -21,182 +21,64 @@
     <!-- Nav Component -->
     <nav class="--fade-in">
       <ul class="flex mt-1">
-        <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap bg-dark-lime transition-colors duration-500 ease-in-out hover:bg-dark-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-pen-nib fa-lg"></i>
-          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Blog</span>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white ">
+            <a href="index.html">Blog</a>
+          </span>
         </li>
-        <li class="whitespace-no-wrap bg-dark-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
+        <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-folder fa-lg"></i>
-          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Portfolio</span>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">
+            <a href="portfolio.html">Portfolio</a>
+          </span>
         </li>
         <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-award fa-lg"></i>
-          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Resume</span>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">
+            <a href="resume.html">Resume</a>
+          </span>
         </li>
         <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-envelope fa-lg"></i>
-          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Contact</span>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">
+            <a href="contact.html">Contact</a>
+          </span>
         </li>
         <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fab fa-github fa-lg"></i>
-          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">Github</span>
+          <span class="hidden sm:inline-block uppercase border-l-2 ml-1 pl-2 border-white">
+            <a href="https://www.github.com/xdega" target="_blank">Github</a>
+          </span>
         </li>
         <span class="bg-light-lime py-1 p-3 flex-grow"></span>
       </ul>
     </nav>
 
     <!-- Content Component -->
-    <main class="--fade-in">
-      <h2 class="sm:hidden text-dark-gray uppercase text-2xl font-header">Portfolio</h2>
-      <!--  Portfolio Item -->
-      <article class="flex mt-1">
-        <a href="#" class="flex-shrink-0">
-          <img src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
-        </a>
-        <div class="flex-auto ml-1">
-
-          <div class="uppercase text-white bg-dark-gray px-1 flex justify-between">
-            <span>Palm Business Center</span>
-            <span>
-              <i class="fab fa-wordpress self-center"></i>
-            </span>
+    <main class="--fade-in mx-2">
+      <h2 class="sm:hidden text-dark-gray uppercase text-2xl font-header">Blog</h2>
+      <!--  Blog Post -->
+      <article class="flex mt-2 mb-5">
+        <div class="flex-auto">
+          <div class="uppercase text-white bg-dark-gray py-1 px-2 flex justify-between flex-col sm:flex-row">
+            <span class="font-bold">This is Webfresh v2. The next Generation</span>
+            <span>June 6, 2020</span>
           </div>
-          <div class="flex justify-between flex-col">
-            <div class="leading-tight">
-              Website redesign, using Wordpress, modern CSS/JS, and Twig.
-            </div>
-            <div>
-              <div class="sm:hidden">
-                <i class="fas fa-angle-down text-light-lime --collapse"></i>
-              </div>
-              <div class="content sm:max-h-full overflow-hidden">
-                <h3 class="hidden sm:block  font-bold py-2 uppercase">
-                  Details
-                </h3>
-                <p class="leading-tight">--- Expanded Description ---</p>
-              </div>
-            </div>
+          <div class="leading-tight mt-1">
+            Website redesign, using Wordpress, modern CSS/JS, and Twig.
           </div>
         </div>
       </article>
-      <!--  Portfolio Item -->
-      <article class="flex mt-3"> <!-- mt-3 will need to be dynamic for all items > 1 -->
-        <a href="#" class="flex-shrink-0">
-          <img src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
-        </a>
-        <div class="flex-auto ml-1">
-          <div class="uppercase text-white bg-dark-gray px-1 flex justify-between">
-            <span>Webfresh v1</span>
-            <span>
-              <i class="fab fa-drupal self-center"></i>
-            </span>
+      <!--  Blog Post -->
+      <article class="flex mt-2 mb-5">
+        <div class="flex-auto">
+          <div class="uppercase text-white bg-dark-gray py-1 px-2 flex justify-between flex-col sm:flex-row">
+            <span class="font-bold">This is Webfresh v2. The next Generation</span>
+            <span>June 6, 2020</span>
           </div>
-          <div class="flex justify-between flex-col">
-            <div class="leading-tight">
-              A new portfolio website. Reimagined and built on Drupal 8 CMS.
-            </div>
-            <div>
-              <div class="sm:hidden">
-                <i class="fas fa-angle-down text-light-lime --collapse"></i>
-              </div>
-              <div class="content sm:max-h-full overflow-hidden">
-                <h3 class="hidden sm:block  font-bold py-2 uppercase">
-                  Details
-                </h3>
-                <p class="leading-tight">--- Expanded Description ---</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!--  Portfolio Item -->
-      <article class="flex mt-3"> <!-- mt-3 will need to be dynamic for all items > 1 -->
-        <a href="#" class="flex-shrink-0">
-          <img src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
-        </a>
-        <div class="flex-auto ml-1">
-          <div class="uppercase text-white bg-dark-gray px-1 flex justify-between">
-            <span>30 Bowl</span>
-            <span>
-              <i class="fab fa-drupal self-center"></i>
-            </span>
-          </div>
-          <div class="flex justify-between flex-col">
-            <div class="leading-tight">
-              Drupal-based website with custom theme, for small-town bowling alley.
-            </div>
-            <div>
-              <div class="sm:hidden">
-                <i class="fas fa-angle-down text-light-lime --collapse"></i>
-              </div>
-              <div class="content sm:max-h-full overflow-hidden">
-                <h3 class="hidden sm:block  font-bold py-2 uppercase">
-                  Details
-                </h3>
-                <p class="leading-tight">--- Expanded Description ---</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!--  Portfolio Item -->
-      <article class="flex mt-3"> <!-- mt-3 will need to be dynamic for all items > 1 -->
-        <a href="#" class="flex-shrink-0">
-          <img src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
-        </a>
-        <div class="flex-auto ml-1">
-          <div class="uppercase text-white bg-dark-gray px-1 flex justify-between">
-            <span>Snapbook</span>
-            <span>
-              <i class="fab fa-react self-center"></i>
-            </span>
-          </div>
-          <div class="flex justify-between flex-col">
-            <div class="leading-tight">
-              A simple photo hosting app, built with React and Firebase.
-            </div>
-            <div>
-              <div class="sm:hidden">
-                <i class="fas fa-angle-down text-light-lime --collapse"></i>
-              </div>
-              <div class="content sm:max-h-full overflow-hidden">
-                <h3 class="hidden sm:block  font-bold py-2 uppercase">
-                  Details
-                </h3>
-                <p class="leading-tight">--- Expanded Description ---</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </article>
-      <!--  Portfolio Item -->
-      <article class="flex mt-3"> <!-- mt-3 will need to be dynamic for all items > 1 -->
-        <a href="#" class="flex-shrink-0">
-          <img src="https://via.placeholder.com/75" alt="Portfolio Screenshot">
-        </a>
-        <div class="flex-auto ml-1">
-          <div class="uppercase text-white bg-dark-gray px-1 flex justify-between">
-            <span>liamhockley.me</span>
-            <span>
-              <i class="fab fa-js self-center"></i>
-              <i class="fab fa-html5 self-center"></i>
-            </span>
-          </div>
-          <div class="flex justify-between flex-col">
-            <div class="leading-tight">
-              Simple, minimal, Github Pages website. Written in raw HTML+JS, with AJAX for dynamic content.
-            </div>
-            <div>
-              <div class="sm:hidden">
-                <i class="fas fa-angle-down text-light-lime --collapse"></i>
-              </div>
-              <div class="content sm:max-h-full overflow-hidden">
-                <h3 class="hidden sm:block  font-bold py-2 uppercase">
-                  Details
-                </h3>
-                <p class="leading-tight">--- Expanded Description ---</p>
-              </div>
-            </div>
+          <div class="leading-tight">
+            Website redesign, using Wordpress, modern CSS/JS, and Twig.
           </div>
         </div>
       </article>
