@@ -8,18 +8,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
   </head>
-  <body class="m-0 text-gray-800 px-1">
+  <body class="m-0 text-gray-800 px-1 --fade-in">
     <!-- Header Component -->
     <header class="flex">
       <div class="p-3 py-1 bg-dark-lime text-center w-full xs:max-w-xs">
-        <h1 class="text-5xl font-bold uppercase text-white leading-none font-header">Webfresh</h1>
-        <p class="uppercase text-white text-lg pt-0">Web Development</p>
+        <h1 class="text-5xl font-bold uppercase text-white leading-none font-header --fade-in">Webfresh</h1>
+        <p class="uppercase text-white text-lg pt-0 --fade-in">Web Development</p>
       </div>
-      <span class="hidden xs:block ml-1 flex-grow bg-light-lime"></span>
+      <span class="hidden xs:block ml-1 flex-grow bg-light-lime --fade-in"></span>
     </header>
     
     <!-- Nav Component -->
-    <nav>
+    <nav class="--fade-in">
       <ul class="flex mt-1">
         <li class="whitespace-no-wrap transition-colors duration-500 ease-in-out hover:bg-dark-lime bg-light-lime py-1 p-3 text-white font-bold w-auto mr-1 cursor-pointer">
           <i class="fas fa-pen-nib fa-lg"></i>
@@ -46,7 +46,7 @@
     </nav>
 
     <!-- Content Component -->
-    <main>
+    <main class="--fade-in">
       <h2 class="sm:hidden text-dark-gray uppercase text-2xl font-header">Portfolio</h2>
       <!--  Portfolio Item -->
       <article class="flex mt-1">
