@@ -1,6 +1,9 @@
 module.exports = {
   purge: [
     "./index.html",
+    "./portfolio.html",
+    "./contact.html",
+    "./resume.html"
   ],
   theme: {
     listStyleType: {
