@@ -3,6 +3,10 @@ module.exports = {
     "./index.html",
   ],
   theme: {
+    listStyleType: {
+      none: 'none',
+      square: 'square'
+    },
     screens: {
       'xs': '455px',
       // => @media (min-width: 350px) { ... }
